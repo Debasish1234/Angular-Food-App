@@ -1,0 +1,317 @@
+{
+   "breakfast": [
+      {
+         "item": {
+            "id": 1,
+            "name": "Masala Dosa",
+            "Price": "70",
+            "mealType": [
+               "Breakfast"
+            ]
+         },
+         "ingredients": [
+            {
+               "Oil": [
+                  "Coconut oil",
+                  "Ghee",
+                  "Sunflower oil",
+                  "Mustard oil"
+               ],
+               "Chilly and Vegetables": [
+                  "Potato & green peas",
+                  "Beetroot & greenpeas",
+                  "Red Chilly",
+                  "Green Chilly"
+               ]
+            }
+         ],
+         "Rice": [
+            "Dosa Rice",
+            "White Rice"
+         ]
+      },
+      {
+         "item": {
+            "id": 2,
+            "name": "Appam",
+            "Price": "20",
+            "mealType": [
+               "Breakfast"
+            ]
+         },
+         "ingredients": [
+            {
+               "Oil": [
+                  "Coconut oil",
+                  "Sunflower oil"
+               ],
+               "mixture": [
+                  "Kallu",
+                  "Yeast"
+               ]
+            }
+         ]
+      },
+      {
+         "item": {
+            "id": 3,
+            "name": "Egg roast",
+            "Price": "40",
+            "mealType": [
+               "Breakfast"
+            ]
+         },
+         "ingredients": [
+            {
+               "Oil": [
+                  "Coconut oil",
+                  "Sunflower oil"
+               ]
+            }
+         ],
+         "utensils": [
+            "Steel Pan",
+            "Cheenachatti",
+            "Non stick Pan"
+         ]
+      },
+      {
+         "item": {
+            "id": 4,
+            "name": " Kadala Curry",
+            "Price": "30",
+            "mealType": [
+               "Breakfast"
+            ]
+         },
+         "ingredients": [
+            {
+               "Oil": [
+                  "Coconut oil",
+                  "Sunflower oil"
+               ]
+            }
+         ]
+      }
+   ],
+   "Lunch": [
+      {
+         "item": {
+            "id": 1,
+            "name": "Chicken Biryani",
+            "Price": "150",
+            "mealType": [
+               "lunch",
+               "dinner"
+            ]
+         },
+         "ingredients": [
+            {
+               "Oil": [
+                  "Coconut Oil",
+                  "Sunflower Oil",
+                  "Mustard Oil"
+               ],
+               "Rice": [
+                  "Basmati Rice",
+                  "Raw rice",
+                  "Jeera Rice"
+               ],
+               "Chilly": [
+                  "Green Chilly",
+                  "Red Chilly",
+                  "Pepper"
+               ]
+            }
+         ],
+         "Utensils": [
+            "Steel cookware",
+            "Pot"
+         ]
+      },
+      {
+         "item": {
+            "id": 2,
+            "name": "Meals",
+            "Price": "40",
+            "mealType": [
+               "Lunch"
+            ]
+         },
+         "ingredients": [
+            {
+               "Rice": [
+                  "Red Rice",
+                  "White Rice"
+               ]
+            }
+         ]
+      },
+      {
+         "item": {
+            "id": 3,
+            "name": "Mutton Biriyani",
+            "Price": "170",
+            "mealType": [
+               "Dinner",
+               "Lunch"
+            ]
+         },
+         "ingredients": [
+            {
+               "Rice": [
+                  "Basmathi Rice",
+                  "Raw Rice",
+                  "Jeera Rice"
+               ],
+               "Chilly": [
+                  "Green Chilly",
+                  "Red Chilly",
+                  "Pepper"
+               ],
+               "Oil": [
+                  "Coconut oil",
+                  "Ghee",
+                  "Sunflower oil",
+                  "Mustard oil"
+               ]
+            }
+         ],
+         "Utensils": [
+            "Steel cookware",
+            "Pot"
+         ]
+      },
+      {
+         "item": {
+            "id": 4,
+            "name": "Vegetable Biriyani",
+            "Price": "150",
+            "mealType": [
+               "Dinner",
+               "Lunch"
+            ]
+         },
+         "ingredients": [
+            {
+               "Rice": [
+                  "Basmathi Rice",
+                  "Raw Rice",
+                  "Jeera Rice"
+               ],
+               "Oil": [
+                  "Coconut oil",
+                  "Ghee",
+                  "Sunflower oil",
+                  "Mustard oil"
+               ]
+            }
+         ],
+         "Utensils": [
+            "Steel cookware",
+            "Pot"
+         ]
+      }
+   ],
+   "dinner": [
+      {
+         "item": {
+            "id": 1,
+            "name": "Chicken Biryani",
+            "Price": "150",
+            "mealType": [
+               "lunch",
+               "dinner"
+            ]
+         },
+         "ingredients": [
+            {
+               "Oil": [
+                  "Coconut Oil",
+                  "Sunflower Oil",
+                  "Mustard Oil"
+               ],
+               "Rice": [
+                  "Basmati Rice",
+                  "Raw rice",
+                  "Jeera Rice"
+               ],
+               "Chilly": [
+                  "Green Chilly",
+                  "Red Chilly",
+                  "Pepper"
+               ]
+            }
+         ],
+         "Utensils": [
+            "Steel cookware",
+            "Pot"
+         ]
+      },
+      {
+         "item": {
+            "id": 2,
+            "name": "Mutton Biriyani",
+            "Price": "170",
+            "mealType": [
+               "Dinner",
+               "Lunch"
+            ]
+         },
+         "ingredients": [
+            {
+               "Rice": [
+                  "Basmathi Rice",
+                  "Raw Rice",
+                  "Jeera Rice"
+               ],
+               "Chilly": [
+                  "Green Chilly",
+                  "Red Chilly",
+                  "Pepper"
+               ],
+               "Oil": [
+                  "Coconut oil",
+                  "Ghee",
+                  "Sunflower oil",
+                  "Mustard oil"
+               ]
+            }
+         ],
+         "Utensils": [
+            "Steel cookware",
+            "Pot"
+         ]
+      },
+      {
+         "item": {
+            "id": 3,
+            "name": "Vegetable Biriyani",
+            "Price": "150",
+            "mealType": [
+               "Dinner",
+               "Lunch"
+            ]
+         },
+         "ingredients": [
+            {
+               "Rice": [
+                  "Basmathi Rice",
+                  "Raw Rice",
+                  "Jeera Rice"
+               ],
+               "Oil": [
+                  "Coconut oil",
+                  "Ghee",
+                  "Sunflower oil",
+                  "Mustard oil"
+               ]
+            }
+         ],
+         "Utensils": [
+            "Steel cookware",
+            "Pot"
+         ]
+      }
+   ]
+}

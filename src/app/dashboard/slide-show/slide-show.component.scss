@@ -1,0 +1,107 @@
+.header-video {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+#hero_video {
+    position: relative;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    display: table;
+    height: 100%;
+    z-index: 99;
+    text-align: center;
+}
+#hero_video > div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 10%;
+}
+#sub_content h1 {
+    margin: 0 0 10px 0;
+    font-size: 45px;
+    font-weight: 300;
+    color: #fff;
+}
+#hero_video > div h1 {
+    margin-top: -60px;
+}
+#hero_video {
+    position: absolute !important;
+}
+#custom-search-input {
+    margin: 0;
+    top: 10px;
+    padding: 0;
+    width: 650px;
+    margin: auto;
+    position: relative;
+}
+#custom-search-input .search-query {
+    width: 650px;
+    padding: 15px 30px;
+    border: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #444;
+}
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.timer-section{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    h1{
+        color: darkgreen !important;
+        font-size: 1.3rem;
+    }
+}
+.carousel-caption{
+    top: 25% !important;
+    width: 385px;
+    border-radius: 5px;
+    color: darkgreen;
+    left: 60%;
+    height: 165px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+@media only screen and (max-width: 667px) {
+    .header-video{
+        height: auto !important;
+        img{
+            height: 300px;
+        }
+    }
+    .carousel-caption{
+        top: 33% !important;
+        width: 220px;
+        left: 35%;
+        height: 130px;
+    }
+}
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+    .header-video{
+        height: auto !important;
+        img{
+            height: 300px;
+        }
+    }
+    .carousel-caption{
+        top: 33% !important;
+        width: 220px;
+        left: 35%;
+        height: 130px;
+    }
+  }

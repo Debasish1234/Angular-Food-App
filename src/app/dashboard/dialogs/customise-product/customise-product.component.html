@@ -1,0 +1,121 @@
+<div class="pdp-container">
+  <form #customerForm="ngForm">
+    <div class="col-md-12 no-padding">
+      <div class="col-md-8 flt pdp-left pdp no-padding  md-width">
+        <!-- <input type="text" class="form-control" id="name"
+    required
+    [(ngModel)]="data.name" />  -->
+        <div class="col-md-12 no-padding">
+          <div class="col-md-4 flt md-width">
+            <div class="item-cms">
+              <label for="item-label">Name: </label>
+              <span class="item-name" name="item-label"> {{itemName}}</span>
+            </div>
+            <div class="item-cms">
+              <label for="item-label">Price: </label>
+              <span class="item-name" name="item-label"> {{itemPrice}}</span>
+            </div>
+            <div class="item-cms">
+              <label for="item-label"style="float: none;">Description: </label>
+              <span class="item-name" name="item-label" style="float: none;"> {{description}}</span>
+            </div>
+          </div>
+          <div class="col-md-8 flt md-width">
+            <img class="fixed-recipe-card__img ng-isolate-scope" alt="Instant Pot(R)" title="Instant Pot(R)"
+              src="../../../assets/images/{{image}}" style="display: inline;">
+          </div>
+          <div class="clr"></div>
+        </div>
+        <div class="col-md-12">
+          <h5>Ingredient </h5>
+          <div class="col-md-6 flt md-width">
+            <mat-form-field>
+              <mat-label>Oil</mat-label>
+              <mat-select [(ngModel)]="product.oil" name="oil">
+                <mat-option *ngFor="let oil of ingredientsOil" [value]="oil">
+                  {{oil}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-md-6 flt md-width">
+            <mat-form-field>
+              <mat-label>Rice</mat-label>
+              <mat-select [(ngModel)]="product.rice" name="rice">
+                <mat-option *ngFor="let rice of ingredientsRice" [value]="rice">
+                  {{rice}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="clr"></div>
+          <div class="col-md-6 flt md-width">
+            <mat-form-field>
+              <mat-label>Chilly</mat-label>
+              <mat-select [(ngModel)]="product.chilly" name="chilly">
+                <mat-option *ngFor="let chilly of ingredientsChilly" [value]="chilly">
+                  {{chilly}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-md-6 flt md-width">
+            <mat-form-field>
+              <mat-label>Utensils</mat-label>
+              <mat-select [(ngModel)]="product.utensils" name="utensils">
+                <mat-option *ngFor="let utensils of Utensils" [value]="utensils">
+                  {{utensils}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 flt pdp-right pdp no-padding md-width">
+        <div class="item-cms">
+          <label for="item-label">Name: </label>
+          <span class="item-name" name="item-label"> {{itemName}}</span>
+        </div>
+        <div class="item-cms">
+          <label for="item-label">Price: </label>
+          <span class="item-name" name="item-label"> {{itemPrice}}</span>
+        </div>
+        <div class="item-cms">
+          <label for="item-label">Meal Type: </label>
+          <span class="item-name" name="item-label"> {{mealType}}</span>
+        </div>
+        <div class="ingredient-container">
+          <h5>Ingredient </h5>
+          <div class="item-cms" *ngIf="product.oil">
+            <label for="item-label">Oil: </label>
+            <span class="item-name" name="item-label"> {{product.oil}}</span>
+          </div>
+          <div class="item-cms" *ngIf="product.rice">
+            <label for="item-label">Rice: </label>
+            <span class="item-name" name="item-label"> {{product.rice}}</span>
+          </div>
+          <div class="item-cms" *ngIf="product.chilly">
+            <label for="item-label">Chilly: </label>
+            <span class="item-name" name="item-label"> {{product.chilly}}</span>
+          </div>
+          <div class="item-cms" *ngIf="product.utensils">
+            <label for="item-label">Utensils: </label>
+            <span class="item-name" name="item-label"> {{product.utensils}}</span>
+          </div>
+        </div>
+        <div class="col-md-12 ingredient-btn no-padding">
+          <div class="cms-btn flt col-md-6 no-padding">
+            <button class="btn  btn-success" mat-dialog-close (click)="addCart(itemName, itemPrice)">Add to Cart</button>
+          </div>
+          <div class="cms-btn flt col-md-6 no-padding">
+            <button class="btn btn-success" mat-dialog-close>Cancel</button>
+          </div>
+          <div class="clr"></div>
+        </div>
+
+      </div>
+      <div class="clr"></div>
+    </div>
+  </form>
+</div>

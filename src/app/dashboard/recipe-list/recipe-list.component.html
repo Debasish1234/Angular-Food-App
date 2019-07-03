@@ -1,0 +1,103 @@
+<!--Breakfast section-->
+<section id="breakfastSection" class="recipe-section">
+  <div class="info-heading">
+    <h1>Breakfast ></h1>
+
+  </div>
+  <div class="recipe-section-conytainer">
+    <div class="fixed-recipe-card item-card-{{i}} md-width tab-only-wd" *ngFor="let item of recipeBreakFast; let i = index">
+      <div class="grid-card-image-container">
+        <a href="#">
+          <img class="fixed-recipe-card__img ng-isolate-scope" alt="Instant Pot(R)" title="Instant Pot(R)"
+            src="../../../assets/images/{{item.item.imageName}}" style="display: inline;">
+        </a>
+      </div>
+      <div class="fixed-recipe-card__info">
+        <h3 class="fixed-recipe-card__h3">
+          <a href="#">
+            <span class="fixed-recipe-card__title-link">{{item.item.name}} </span>
+          </a>
+        </h3>
+        <a href="#">
+          <div data-ellipsis="" class="fixed-recipe-card__description ng-isolate-scope">{{item.item.Description | trim:85}}</div>
+        </a>
+        <div class="addCard">
+          <div class="price">{{item.item.Price}}</div>
+          <div class="cms-btn">
+              <button class="btn  btn-success" (click)="customiseProduct(item.id, item.item.mealType[0])">Customize</button>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!--Lunch section-->
+<section id="lunchSection" class="recipe-section">
+  <div class="info-heading">
+    <h1> Lunch ></h1>
+  </div>
+  <div class="recipe-section-conytainer">
+    <div class="fixed-recipe-card item-card-{{i}} md-width tab-only-wd" *ngFor="let lunch of recipeLunch; let i = index">
+
+      <div class="grid-card-image-container">
+        <a href="#">
+          <img class="fixed-recipe-card__img ng-isolate-scope" alt="Instant Pot(R)" title="Instant Pot(R)"
+            src="../../../assets/images/{{lunch.item.imageName}}" style="display: inline;">
+        </a>
+      </div>
+      <div class="fixed-recipe-card__info">
+        <h3 class="fixed-recipe-card__h3">
+          <a href="#">
+            <span class="fixed-recipe-card__title-link">{{lunch.item.name}} </span>
+          </a>
+        </h3>
+        <a href="#">
+          <div data-ellipsis="" class="fixed-recipe-card__description ng-isolate-scope">{{lunch.item.Description | trim:85}}</div>
+        </a>
+        <div class="addCard">
+            <div class="price">{{lunch.item.Price}}</div>
+            <div class="cms-btn">
+                <button class="btn  btn-success" (click)="customiseProduct(lunch.id,  lunch.item.mealType[0])">Customize</button>
+            </div>
+            <div class="clr"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Dinner section-->
+<section id="dinnerSection" class="recipe-section" style="margin-bottom: 14px;">
+  <div class="info-heading">
+    <h1> Dinner ></h1>
+  </div>
+  <div class="recipe-section-conytainer">
+    <div class="fixed-recipe-card item-card-{{i}} md-width tab-only-wd" *ngFor = "let dinner of recipeDinner; let i = index">
+
+      <div class="grid-card-image-container">
+        <a href="#">
+          <img class="fixed-recipe-card__img ng-isolate-scope" alt="Instant Pot(R)" title="Instant Pot(R)"
+            src="../../../assets/images/{{dinner.item.imageName}}" style="display: inline;">
+        </a>
+      </div>
+      <div class="fixed-recipe-card__info">
+        <h3 class="fixed-recipe-card__h3">
+          <a href="#">
+            <span class="fixed-recipe-card__title-link">{{dinner.item.name}} </span>
+          </a>
+        </h3>
+        <a href="#">
+          <div data-ellipsis="" class="fixed-recipe-card__description ng-isolate-scope">{{dinner.item.Description | trim:85}}</div>
+        </a>
+        <div class="addCard">
+            <div class="price">{{dinner.item.Price}}</div>
+            <div class="cms-btn">
+                <button class="btn  btn-success" (click)="customiseProduct(dinner.id,  dinner.item.mealType[0])">Customize</button>
+            </div>
+            <div class="clr"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>

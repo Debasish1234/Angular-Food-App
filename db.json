@@ -1,0 +1,415 @@
+{
+  "emailInfo": [
+    {
+      "email": "test-food@com",
+      "systemTime": "2019-6-23 22:18:57",
+      "price": "₹20",
+      "mealType": [
+        "Breakfast"
+      ],
+      "name": "Appam",
+      "id": 1
+    },
+    {
+      "email": "kamaraju@gmail.com",
+      "systemTime": "2019-6-24 11:0:10",
+      "price": "₹70",
+      "mealType": [
+        "Breakfast"
+      ],
+      "name": "Masala Dosa",
+      "id": 2
+    },
+    {
+      "email": "as@lolo.com",
+      "systemTime": "2019-6-24 11:39:48",
+      "price": "₹170",
+      "mealType": [
+        "Dinner"
+      ],
+      "name": "Mutton Biriyani",
+      "id": 3
+    },
+    {
+      "email": "Naresh@gamil.com",
+      "systemTime": "2019-6-24 12:36:20",
+      "price": "₹40",
+      "mealType": [
+        "Lunch"
+      ],
+      "name": "Meals",
+      "id": 4
+    }
+  ],
+  "breakfast": [
+    {
+      "id": 1,
+      "item": {
+        "name": "Masala Dosa",
+        "Price": "₹70",
+        "Description": "Tangy thin crispy dosa with yummy vegetable masala(potato, beetroot) dish up with chutney and sambar.",
+        "imageName": "breakfast-1.jpg",
+        "mealType": [
+          "Breakfast"
+        ]
+      },
+      "ingredients": [
+        {
+          "Oil": [
+            "Coconut oil",
+            "Ghee",
+            "Sunflower oil",
+            "Mustard oil"
+          ],
+          "Chilly": [
+            "Potato & green peas",
+            "Beetroot & greenpeas",
+            "Red Chilly",
+            "Green Chilly"
+          ],
+          "Rice": [
+            "Dosa Rice",
+            "White Rice"
+          ]
+        }
+      ],
+      "Utensils": [
+        "Steel cookware",
+        "Pot"
+      ]
+    },
+    {
+      "id": 2,
+      "item": {
+        "name": "Appam",
+        "Price": "₹20",
+        "Description": " Delicious fluffy south Indian breakfast with a batter of rice flour, yeast and coconut and is best served with egg roast or veg kurma.",
+        "imageName": "breakfast-2.jpg",
+        "mealType": [
+          "Breakfast"
+        ]
+      },
+      "ingredients": [
+        {
+          "Oil": [
+            "Coconut oil",
+            "Sunflower oil"
+          ],
+          "Chilly": [
+            "Kallu",
+            "Yeast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "item": {
+        "name": "Egg roast",
+        "Price": "₹40",
+        "Description": " Delicious exotic semi gravy spicy roast, better served with chapathi or appam.",
+        "imageName": "breakfast-3.jpg",
+        "mealType": [
+          "Breakfast"
+        ]
+      },
+      "ingredients": [
+        {
+          "Oil": [
+            "Coconut oil",
+            "Sunflower oil"
+          ]
+        }
+      ],
+      "utensils": [
+        "Steel Pan",
+        "Cheenachatti",
+        "Non stick Pan"
+      ]
+    },
+    {
+      "id": 4,
+      "item": {
+        "name": " Kadala Curry",
+        "Price": "₹30",
+        "Description": " Delicious exotic semi gravy spicy roast, better served with chapathi or appam.",
+        "imageName": "breakfast-4.jpg",
+        "mealType": [
+          "Breakfast"
+        ]
+      },
+      "ingredients": [
+        {
+          "Oil": [
+            "Coconut oil",
+            "Sunflower oil"
+          ]
+        }
+      ]
+    }
+  ],
+  "Lunch": [
+    {
+      "id": 1,
+      "item": {
+        "name": "Chicken Biryani",
+        "Price": "₹150",
+        "Description": "Long or short grained rice, with succulent zesty marinated chicken encrusted and layered with aromatic spices, topped up with seasonal spices such as cloves, cinnamon, cardamom, nutmeg and is served with raita and pickle.",
+        "imageName": "lunch-1.jpg",
+        "mealType": [
+          "lunch"
+        ]
+      },
+      "ingredients": [
+        {
+          "Oil": [
+            "Coconut Oil",
+            "Sunflower Oil",
+            "Mustard Oil"
+          ],
+          "Rice": [
+            "Basmati Rice",
+            "Raw rice",
+            "Jeera Rice"
+          ],
+          "Chilly": [
+            "Green Chilly",
+            "Red Chilly",
+            "Pepper"
+          ]
+        }
+      ],
+      "Utensils": [
+        "Steel cookware",
+        "Pot"
+      ]
+    },
+    {
+      "id": 2,
+      "item": {
+        "name": "Meals",
+        "Price": "₹40",
+        "Description": "A bowl of rice ( red or white) with numerous seasonal vegetable curry served in a plate with curd and pappad.",
+        "imageName": "lunch-2.jpg",
+        "mealType": [
+          "Lunch"
+        ]
+      },
+      "ingredients": [
+        {
+          "Rice": [
+            "Red Rice",
+            "White Rice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "item": {
+        "name": "Mutton Biriyani",
+        "Price": "₹170",
+        "Description": " Delicate fresh mutton marinated with exotic taste and encrusted with tossed onion and zesty spices.",
+        "imageName": "lunch-3.jpg",
+        "mealType": [
+          "Lunch"
+        ]
+      },
+      "ingredients": [
+        {
+          "Rice": [
+            "Basmathi Rice",
+            "Raw Rice",
+            "Jeera Rice"
+          ],
+          "Chilly": [
+            "Green Chilly",
+            "Red Chilly",
+            "Pepper"
+          ],
+          "Oil": [
+            "Coconut oil",
+            "Ghee",
+            "Sunflower oil",
+            "Mustard oil"
+          ]
+        }
+      ],
+      "Utensils": [
+        "Steel cookware",
+        "Pot"
+      ]
+    },
+    {
+      "id": 4,
+      "item": {
+        "name": "Vegetable Biriyani",
+        "Price": "₹150",
+        "Description": " Assorted seasonal vegetables with grained rice( basmati or jeera rice) fried in edible oil accompanied with raita and pickle.",
+        "imageName": "lunch-4.jpg",
+        "mealType": [
+          "Lunch"
+        ]
+      },
+      "ingredients": [
+        {
+          "Rice": [
+            "Basmathi Rice",
+            "Raw Rice",
+            "Jeera Rice"
+          ],
+          "Oil": [
+            "Coconut oil",
+            "Ghee",
+            "Sunflower oil",
+            "Mustard oil"
+          ]
+        }
+      ],
+      "Utensils": [
+        "Steel cookware",
+        "Pot"
+      ]
+    }
+  ],
+  "dinner": [
+    {
+      "id": 1,
+      "item": {
+        "name": "Chicken Biryani",
+        "Price": "₹150",
+        "Description": " Long or short grained rice, with succulent zesty marinated chicken encrusted and layered with aromatic spices, topped up with seasonal spices such as cloves, cinnamon, cardamom, nutmeg and is served with raita and pickle.",
+        "imageName": "dinner-1.jpg",
+        "mealType": [
+          "dinner"
+        ]
+      },
+      "ingredients": [
+        {
+          "Oil": [
+            "Coconut Oil",
+            "Sunflower Oil",
+            "Mustard Oil"
+          ],
+          "Rice": [
+            "Basmati Rice",
+            "Raw rice",
+            "Jeera Rice"
+          ],
+          "Chilly": [
+            "Green Chilly",
+            "Red Chilly",
+            "Pepper"
+          ]
+        }
+      ],
+      "Utensils": [
+        "Steel cookware",
+        "Pot"
+      ]
+    },
+    {
+      "id": 2,
+      "item": {
+        "name": "Mutton Biriyani",
+        "Description": " Delicate fresh mutton marinated with exotic taste and encrusted with tossed onion and zesty spices.",
+        "Price": "₹170",
+        "imageName": "dinner-2.jpg",
+        "mealType": [
+          "Dinner"
+        ]
+      },
+      "ingredients": [
+        {
+          "Rice": [
+            "Basmathi Rice",
+            "Raw Rice",
+            "Jeera Rice"
+          ],
+          "Chilly": [
+            "Green Chilly",
+            "Red Chilly",
+            "Pepper"
+          ],
+          "Oil": [
+            "Coconut oil",
+            "Ghee",
+            "Sunflower oil",
+            "Mustard oil"
+          ]
+        }
+      ],
+      "Utensils": [
+        "Steel cookware",
+        "Pot"
+      ]
+    },
+    {
+      "id": 3,
+      "item": {
+        "name": "Vegetable Biriyani",
+        "Price": "₹150",
+        "Description": " Assorted seasonal vegetables with grained rice( basmati or jeera rice) fried in edible oil accompanied with raita and pickle.",
+        "imageName": "dinner-3.jpg",
+        "mealType": [
+          "Dinner"
+        ]
+      },
+      "ingredients": [
+        {
+          "Rice": [
+            "Basmathi Rice",
+            "Raw Rice",
+            "Jeera Rice"
+          ],
+          "Oil": [
+            "Coconut oil",
+            "Ghee",
+            "Sunflower oil",
+            "Mustard oil"
+          ]
+        }
+      ],
+      "Utensils": [
+        "Steel cookware",
+        "Pot"
+      ]
+    },
+    {
+      "id": 4,
+      "item": {
+        "name": "chapathi and masala curry",
+        "Price": "₹40",
+        "Description": "soft and buttered chapathi made on tawa with vegetable masala curry.",
+        "imageName": "dinner-4.jpeg",
+        "mealType": [
+          "Dinner"
+        ]
+      },
+      "ingredients": [
+        {
+          "Rice": [
+            "Basmathi Rice",
+            "Raw Rice",
+            "Jeera Rice"
+          ],
+          "Chilly": [
+            "Green Chilly",
+            "Red Chilly",
+            "Pepper"
+          ],
+          "Oil": [
+            "Coconut oil",
+            "Ghee",
+            "Sunflower oil",
+            "Mustard oil"
+          ]
+        }
+      ],
+      "Utensils": [
+        "Steel cookware",
+        "Pot"
+      ]
+    }
+  ]
+}

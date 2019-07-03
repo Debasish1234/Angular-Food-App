@@ -1,0 +1,50 @@
+.pdp-container{
+    .pdp-left{
+        width: 62.7%;
+        padding: 10px;
+        padding-top: 10px !important;
+    }
+    .pdp{
+        background-color: #fff;
+        border: 1px solid #d2d2d2;
+        padding: 0;
+        margin: 10px;
+       .item-cms {
+           span{
+            color: rgba(0,0,0,.55);
+           }
+        }
+        .ingredient-container{
+            min-height: 288px;
+        }
+        .ingredient-btn .cms-btn{
+            text-align: center;
+        }
+        img{
+            height: 269px;
+        }
+    }
+    .pdp-right{
+        padding: 10px;
+        margin-right: 0;
+    }
+    img{
+        width: 100%;
+    }
+}
+.mat-dialog-container{
+    padding: 0;
+}
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+    .pdp-container{
+        .pdp-left{
+            width: 61%;
+            img{
+                height: 165px;
+            }
+            .mat-input-infix.mat-form-field-infix{
+                width: 130px !important;
+            }
+        }
+    }
+}

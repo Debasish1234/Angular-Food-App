@@ -1,0 +1,25 @@
+<div class="container email-list-container">
+  <h2>Order List</h2>          
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Serial Number</th>
+        <th>Email ID</th>
+        <th>Item Name </th>
+          <th>Meal Type</th>
+          <th> Item Price</th>
+        <th>Order Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let item of emialList">
+          <td>{{item.id}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.mealType[0]}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.systemTime}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+h2, h1, body{
+    font-family: "Source Sans Pro",Arial;
+}
+.clr{
+    clear: both;
+}
+html{
+    scroll-behavior: smooth;
+}
+html, body { height: 100%; }
+body { margin: 0;background-color: #e6e6e6;font-family:"Source Sans Pro",Arial}
+.flt{
+    float: left;
+}
+.mat-dialog-container{
+    background-color: #e6e6e6;
+}
+.bg-white{ background-color: #ffffff}
+.no-padding{ padding: 0;}
+.no-margin{ margin: 0;}
+.custom-dialog-container .mat-dialog-container {
+   padding: 0 !important;
+}
+.pd-left{ padding-left: 0}
+button.btn{padding: 3px 8px; font-size: .87rem;}
+@media only screen and (max-width: 667px) {
+.md-width{
+    width: 100% !important;
+    float: none;
+    display: block;
+}
+}

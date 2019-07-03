@@ -1,0 +1,119 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: rgba(255, 255, 255, .4);
+}
+#navbarSupportedContent {
+    position: relative;
+    z-index: 9;
+    width: auto;
+    margin: 0;
+}
+#navbarSupportedContent ul, #navbarSupportedContent ul li{
+    float: left;
+}
+#navbarSupportedContent ul, #navbarSupportedContent ul li,
+ #navbarSupportedContent ul li a {
+    position: relative;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+}
+.navbar{
+    padding: 0 !important;
+    .pd-only{
+        padding: .5rem 1rem;
+    }
+}
+.Taas_style{
+    color: darkgreen;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.icon-menu{
+    float: right;
+}
+#navbarSupportedContent ul li a {
+    color: darkgreen;
+    padding: 2px 50px 15px 10px;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+#navbarSupportedContent ul li a:hover{
+    text-decoration: none;
+}
+#close_in, #header_menu, .cmn-toggle-switch {
+    display: none;
+}
+.hidden-lg {
+    display: none;
+}
+.menu-spacer {
+    flex: 1 1 auto;
+  }
+@media only screen and (max-width: 667px) {
+    .hidden-lg {
+        display: block!important;
+    }
+    .no-pd-mb{
+        padding: 0;;
+    }
+    #navbarSupportedContent {
+        width: 100%;
+        padding: 0;
+        ul{
+            background-color: #ffffff;
+            width: 100%;
+            padding: 0;
+            border: 1px solid #d2d2d2;
+            li{
+                padding: 0;
+                border-bottom: 1px solid #d2d2d2;
+                margin: 0;
+                text-align: left;
+                float: none;
+            }
+        }
+    }
+    .showMenu{
+        display: block !important;
+    }
+}
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+    .no-pd-mb{
+        padding: 0;;
+    }
+    #navbarSupportedContent {
+        max-width: 100%;
+        padding: 0;
+        ul{
+            .no-pd-mb{
+                max-width: 100%;  
+            }
+            background-color: #ffffff;
+            width: 100%;
+            padding: 0;
+            border: 1px solid #d2d2d2;
+            li{
+                padding: 0;
+                border-bottom: 1px solid #d2d2d2;
+                margin: 0;
+                text-align: left;
+                float: none;
+            }
+        }
+    }
+    .navbar .tab-only{
+        max-width: 100%;
+        flex: 0%;
+    }
+    .showMenu{
+        display: block !important;
+    }
+  }
+
